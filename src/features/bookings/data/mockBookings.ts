@@ -1,0 +1,40 @@
+import type { Booking } from "@/shared/data/types";
+
+export const mockBookings: Booking[] = [
+  {
+    id: "b1",
+    groundId: "1",
+    userId: "u1",
+    slotId: "1-2026-03-15-8",
+    date: "2026-03-15",
+    startTime: "20:00",
+    endTime: "21:00",
+    status: "confirmed",
+    paymentMode: "pay-at-ground",
+    createdAt: "2026-03-14",
+  },
+  {
+    id: "b2",
+    groundId: "3",
+    userId: "u1",
+    slotId: "3-2026-03-16-10",
+    date: "2026-03-16",
+    startTime: "14:00",
+    endTime: "16:00",
+    status: "confirmed",
+    paymentMode: "pay-at-ground",
+    createdAt: "2026-03-14",
+  },
+  {
+    id: "b3",
+    groundId: "2",
+    userId: "u1",
+    slotId: "2-2026-03-10-5",
+    date: "2026-03-10",
+    startTime: "17:00",
+    endTime: "18:00",
+    status: "completed",
+    paymentMode: "pay-at-ground",
+    createdAt: "2026-03-09",
+  },
+];
